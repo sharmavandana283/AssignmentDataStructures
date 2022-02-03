@@ -6,7 +6,7 @@ import junit.framework.Assert;
 
 public class MyBinaryTreeTest {
 	
-	/*@Test
+	@Test
 	public void given3NumbersWhenReturnToBinaryTreeShouldReturnSize()
 	{
 		MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
@@ -40,7 +40,7 @@ public class MyBinaryTreeTest {
 		int size = myBinaryTree.getSize();
 		System.out.println(size);
 		Assert.assertEquals(13, size);
-	}*/
+	}
 	
 	@Test
 	public void given13NumbersAddedBinaryTree_SearchNumber()
